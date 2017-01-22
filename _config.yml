@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-email: your-email@domain.com
+email: jameswquinn@me.com
 
 baseurl: "/mynewsite" # the subpath of your site, e.g. /blog
 url: "https://jameswquinn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -46,11 +46,14 @@ social:
 
 # Build settings
 markdown: kramdown
+permalink: pretty
 
 gems:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-archives
   
 exclude:
   - Gemfile
