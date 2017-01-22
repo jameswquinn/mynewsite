@@ -14,7 +14,7 @@ masthead-video-credit-name: "Jonathan Besler"
 
 # SEO tags 
 title: "first image james"
-description:
+description: is this seen by pinterest...
 author:
 image: "/assets/uploads/poster.jpg"
 
