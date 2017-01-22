@@ -7,7 +7,7 @@ layout: page
 # Background video and captions...
 covervid: "/videos/Dreamscapes-SD.mp4"
 masthead-video-heading: "covervid"
-
+page.masthead-video-subheading: "Background Video Cover"
 poster: "/assets/uploads/default.jpg"
 masthead-video-credit-title: "Dreamscapes"
 masthead-video-credit-name: "Jonathan Besler"
