@@ -18,11 +18,11 @@ layout: default
     </figcaption>
 </figure>
 {% endif %}
-{% if page.image %}
+
 <a data-pin-do="buttonPin" data-pin-custom="true">
 <img src="{{ page.image | prepend: site.baseurl | prepend: site.url }}" alt="" />
 </a>
-{% endif %}
+
 {% if page.youtube %}
 <iframe class="lazyload"  data-src="https://www.youtube.com/embed/{{ page.youtube }}?showinfo=0&rel=0&controls=1" frameborder="0" allowfullscreen></iframe>
 {% endif %}
