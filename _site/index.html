@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!-- Begin Jekyll SEO tag v2.1.0 -->
+<title>first image james - Your awesome title</title>
+<meta property="og:title" content="first image james" />
+<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<link rel="canonical" href="http://localhost:4000/mynewsite/" />
+<meta property="og:url" content="http://localhost:4000/mynewsite/" />
+<meta property="og:site_name" content="Your awesome title" />
+<meta property="og:image" content="http://localhost:4000/mynewsite/assets/uploads/poster.jpg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@benbalter" />
+<meta name="twitter:creator" content="@J Quinn" />
+<script type="application/ld+json">
+{"@context": "http://schema.org",
+"@type": "WebSite",
+"name": "Ben Balter",
+"headline": "first image james",
+"image": "http://localhost:4000/mynewsite/assets/uploads/poster.jpg",
+"description": "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.",
+"sameAs": ["https://twitter.com/BenBalter","https://www.facebook.com/ben.balter","https://www.linkedin.com/in/BenBalter","https://plus.google.com/+BenBalter","https://github.com/benbalter","https://keybase.io/benbalter"],
+"url": "http://localhost:4000/mynewsite/"}</script>
+<!-- End Jekyll SEO tag -->
+
+<link rel="apple-touch-icon" sizes="180x180" href="/mynewsite/apple-touch-icon.png">
+<link rel="icon" type="image/png" href="/mynewsite/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/mynewsite/favicon-16x16.png" sizes="16x16">
+<link rel="manifest" href="/mynewsite/manifest.json">
+<link rel="mask-icon" href="/mynewsite/safari-pinned-tab.svg" color="#5bbad5">
+<meta name="theme-color" content="#ffffff">
+<!-- Google Fonts -->
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+
+<link rel="stylesheet" href="/mynewsite/styles/normalize.css" />
+<link rel="stylesheet" href="/mynewsite/styles/masthead.css" />
+<link rel="stylesheet" href="/mynewsite/styles/milligram.css" />
+
+
+
+</head>
+<body>
+
+
+
+<!-- Video Markup -->
+<figure class="masthead">
+    <video class="masthead-video" autoplay loop muted poster="/mynewsite/assets/uploads/default.jpg">
+        <source src="/mynewsite/videos/Dreamscapes-SD.mp4" type="video/mp4">
+    </video>
+    <figcaption>
+        <div class="masthead-overlay">
+        </div><div class="masthead-arrow"></div>
+        <h1>covervid<span>Background Video Cover</span></h1>
+        <div class="masthead-video-credit">
+            <span>Video: Dreamscapes</span>
+            <span>by Jonathan Besler</span>
+        </div>
+    </figcaption>
+</figure>
+
+
+<img class="lazyload" data-src="/mynewsite/assets/uploads/poster.jpg">
+
+
+<iframe class="lazyload"  data-src="https://www.youtube.com/embed/MQJ6oIy8cAE?showinfo=0&rel=0&controls=1" frameborder="0" allowfullscreen></iframe>
+
+
+<iframe class="lazyload" data-src="https://player.vimeo.com/video/200177921?color=ffffff"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+
+
+
+
+<!--
+<script src="https://cdn.jsdelivr.net/lazysizes/3.0.0-rc3/lazysizes.min.js"></script>
+<script src="http://stefanerickson.github.io/covervid/covervid.js"></script>
+<script src="https://cdn.jsdelivr.net/zepto/1.2.0/zepto.min.js"></script>
+-->
+<script src="/mynewsite/js/zepto.min.js"></script>
+<script src="/mynewsite/js/lazysizes.min.js"></script>
+<script src="/mynewsite/js/covervid.js"></script>
+<script src="/mynewsite/js/scripts.js"></script>
+
+<!-- Call CoverVid -->
+<script>
+    // If using jQuery
+        // $('.masthead-video').coverVid(1920, 1080);
+    // If not using jQuery (Native Javascript)
+        coverVid(document.querySelector('.masthead-video'), 640, 360);
+</script>
+
+</body>
+</html>

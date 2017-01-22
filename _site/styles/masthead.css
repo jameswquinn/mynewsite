@@ -1,0 +1,95 @@
+/**
+ * Masthead
+ * -------------------------------------------------------------------------- */
+.masthead {
+    position: relative;
+    min-width: 480px;
+    height: 100vh;
+}
+.masthead-video {
+    z-index: 0;
+}
+.masthead-overlay {
+    background-color: #000;
+    opacity: 0.4;
+    position: absolute;
+    top: 0; left: 0;
+    bottom: 0; right: 0;
+    width: 100%;
+    height: 100%;
+}
+.masthead-video-credit {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color: #fff;
+    opacity: 0.6;
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: -0.02em;
+    padding-right: 10px;
+    bottom: 10px;
+    text-decoration: none;
+    text-align: right;
+    line-height: 1.5;
+    -webkit-transition: 0.2s ease all;
+    -moz-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+}
+.masthead-video-credit span {
+    display: block;
+}
+.masthead-video-credit:hover {
+    opacity: 1;
+}
+.masthead-arrow {
+    position: absolute;
+    bottom: 25px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    width: 30px;
+    height: 30px;
+    border-right: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    opacity: 0.4;
+}
+.masthead h1 {
+    position: absolute;
+    width: 100%;
+    font-weight: 700;
+    font-size: 110px;
+    text-align: center;
+    height: 120px;
+    line-height: 1;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #fff;
+}
+.masthead h1 span {
+    display: block;
+    font-size: 18px;
+    letter-spacing: 0.43em;
+    font-weight: 400;
+    text-transform: uppercase;
+    padding-left: 7px;
+    opacity: 0.5;
+}
+figure, figcaption {
+        margin: 0; padding: 0;
+}
+.lazyload,
+.lazyloading
+    {
+    opacity: 0;
+}
+.lazyloaded {
+    opacity: 1;
+    transition: opacity 240ms;
+}
+

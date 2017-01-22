@@ -1,0 +1,22 @@
+---
+# You don't need to edit this file, it's empty on purpose.
+# Edit theme's home layout instead if you wanna make some changes
+# See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
+layout: page
+
+# Background video and captions...
+covervid: "/videos/Dreamscapes-SD.mp4"
+poster: "/assets/uploads/default.jpg"
+masthead-video-credit-title: "Dreamscapes"
+masthead-video-credit-name: "Jonathan Besler"
+
+# SEO tags 
+title: "first image james"
+description:
+author:
+image: "/assets/uploads/poster.jpg"
+
+#
+youtube: "MQJ6oIy8cAE"
+vimeo: "200177921"
+---

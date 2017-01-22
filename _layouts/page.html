@@ -1,0 +1,32 @@
+---
+layout: default
+---
+{% if page.covervid %}
+<!-- Video Markup -->
+<figure class="masthead">
+    <video class="masthead-video" autoplay loop muted poster="{{'/assets/uploads/default.jpg' | prepend: site.baseurl }}">
+        <source src="{{ page.covervid | prepend: site.baseurl }}" type="video/mp4">
+    </video>
+    <figcaption>
+        <div class="masthead-overlay">
+        </div><div class="masthead-arrow"></div>
+        <h1>covervid<span>Background Video Cover</span></h1>
+        <div class="masthead-video-credit">
+            <span>Video: {{ page.masthead-video-credit-title }}</span>
+            <span>by {{ page.masthead-video-credit-name }}</span>
+        </div>
+    </figcaption>
+</figure>
+{% endif %}
+{% if page.image %}
+<img class="lazyload" data-src="{{ page.image | prepend: site.baseurl }}">
+{% endif %}
+{% if page.youtube %}
+<iframe class="lazyload"  data-src="https://www.youtube.com/embed/{{ page.youtube }}?showinfo=0&rel=0&controls=1" frameborder="0" allowfullscreen></iframe>
+{% endif %}
+{% if page.vimeo %}
+<iframe class="lazyload" data-src="https://player.vimeo.com/video/{{ page.vimeo }}?color=ffffff"  frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+{% endif %}
+
+
+

@@ -1,0 +1,17 @@
+<!--
+<script src="https://cdn.jsdelivr.net/lazysizes/3.0.0-rc3/lazysizes.min.js"></script>
+<script src="http://stefanerickson.github.io/covervid/covervid.js"></script>
+<script src="https://cdn.jsdelivr.net/zepto/1.2.0/zepto.min.js"></script>
+-->
+<script src="{{ '/js/zepto.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/lazysizes.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/covervid.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/scripts.js' | prepend: site.baseurl }}"></script>
+
+<!-- Call CoverVid -->
+<script>
+    // If using jQuery
+        // $('.masthead-video').coverVid(1920, 1080);
+    // If not using jQuery (Native Javascript)
+        coverVid(document.querySelector('.masthead-video'), 640, 360);
+</script>
