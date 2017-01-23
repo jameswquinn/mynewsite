@@ -1,0 +1,17 @@
+{% if page.covervid %}
+<!-- Video Markup -->
+<figure class="masthead">
+    <video class="masthead-video" autoplay loop muted poster="{{'/assets/uploads/default.jpg' | prepend: site.baseurl }}">
+        <source src="{{ page.covervid | prepend: site.baseurl }}" type="video/mp4">
+    </video>
+    <figcaption>
+        <div class="masthead-overlay">
+        </div><div class="masthead-arrow"></div>
+        <h1>{{ page.hero-heading }}<span>{{ page.hero-subheading }}</span></h1>
+        <div class="masthead-video-credit">
+            <span>Video: {{ page.masthead-video-credit-title }}</span>
+            <span>by {{ page.masthead-video-credit-name }}</span>
+        </div>
+    </figcaption>
+</figure>
+{% endif %}
