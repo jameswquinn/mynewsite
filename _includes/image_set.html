@@ -1,0 +1,16 @@
+{% if page.image %}
+<img 
+sizes="(max-width: 1400px) 100vw, 1400px"
+srcset="
+{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=200 200w,
+{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=320 320w,
+{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=480 480w,
+{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=640 640w,
+{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=768 768w,
+{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=1024 1024w,
+{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=1166 1166w,
+{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=1280 1280w,
+{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=1400 1400w"
+src="{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}"
+alt="">
+{% endif %}

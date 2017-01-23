@@ -18,6 +18,7 @@ email: jameswquinn@me.com
 
 baseurl: "/mynewsite" # the subpath of your site, e.g. /blog
 url: "https://jameswquinn.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+imageurl: "http://jameswquinn.github.io.rsz.io"
 
 github_username:  jekyll
 

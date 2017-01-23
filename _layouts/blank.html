@@ -1,0 +1,15 @@
+---
+layout: default
+---
+{% if page.image %}
+<img
+    data-sizes="auto"
+    data-src="{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}"
+    data-srcset="{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=200 200w,
+    {{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=320 320w,
+    {{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=480 480w,
+    {{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=640 640w,
+    {{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=768 768w,
+    {{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=1024 1024w,
+    {{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=1280 1280w" class="lazyload" />
+{% endif %}

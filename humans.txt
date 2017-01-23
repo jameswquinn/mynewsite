@@ -6,7 +6,7 @@ layout:
 
 # TEAM
 
-  <{{ site.author }}> -- <role> -- <twitter>
+  <{{ site.author }}> -- <role> -- <{{ site.twitter.username }}>
 
 # THANKS
 

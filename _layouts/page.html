@@ -19,7 +19,16 @@ layout: default
 </figure>
 {% endif %}
 {% if page.image %}
-<img class="lazyload" data-src="{{ page.image | prepend: site.baseurl }}" alt="">
+<img
+    data-sizes="auto"
+    data-src="{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}"
+    data-srcset="{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=200 200w,
+    {{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=320 320w,
+    {{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=480 480w,
+    {{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=640 640w,
+    {{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=768 768w,
+    {{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=1024 1024w,
+    {{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=1280 1280w" class="lazyload" />
 {% endif %}
 {% if page.youtube %}
 <iframe class="lazyload"  data-src="https://www.youtube.com/embed/{{ page.youtube }}?showinfo=0&rel=0&controls=1" frameborder="0" allowfullscreen></iframe>
@@ -37,3 +46,7 @@ layout: default
   href="https://twitter.com/intent/tweet?text=Hello%20world"
   data-size="large">
 Tweet</a>
+
+http://jameswquinn.github.io.rsz.io/mynewsite/assets/uploads/poster.jpg?w=1400
+
+
