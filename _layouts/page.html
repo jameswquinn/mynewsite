@@ -20,7 +20,7 @@ layout: default
 {% endif %}
 {% if page.image %}
 <img
-    data-sizes="auto"
+    data-sizes="(max-width: 1400px) 100vw"
     data-src="{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}"
     data-srcset="{{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=200 200w,
     {{ page.image | prepend: site.baseurl | prepend: site.imageurl }}?w=320 320w,
@@ -38,7 +38,7 @@ layout: default
 {% endif %}
 
 
-
+<!--
 <div class="fb-share-button" data-href="https://jameswquinn.github.io/mynewsite/" data-layout="button" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjameswquinn.github.io%2Fmynewsite%2F&amp;src=sdkpreparse">Share</a></div>
 
 
@@ -46,7 +46,7 @@ layout: default
   href="https://twitter.com/intent/tweet?text=Hello%20world"
   data-size="large">
 Tweet</a>
-
+-->
 <!--
 <video autoplay loop muted poster"">
 	<source src="the-sky-is-calling-large.mp4" media="screen and (min-device-width:801px)" type="video/mp4">

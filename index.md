@@ -2,7 +2,7 @@
 # You don't need to edit this file, it's empty on purpose.
 # Edit theme's home layout instead if you wanna make some changes
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-layout: page
+layout: default
 
 # SEO tags 
 title: "first image james"
@@ -22,5 +22,10 @@ masthead-video-credit-name: "Jonathan Besler"
 youtube: "MQJ6oIy8cAE"
 vimeo: "200177921"
 ---
+# {{ page.title }}
+## {{ page.description }}
+
+# hello
+hello
 
 
