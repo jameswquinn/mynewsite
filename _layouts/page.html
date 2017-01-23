@@ -18,9 +18,9 @@ layout: default
     </figcaption>
 </figure>
 {% endif %}
-
-
-
+{% if page.image %}
+<img class="lazyload" data-src="{{ page.image | prepend: site.baseurl | prepend: site.url }}" alt="" />
+{endif}
 {% if page.youtube %}
 <iframe class="lazyload"  data-src="https://www.youtube.com/embed/{{ page.youtube }}?showinfo=0&rel=0&controls=1" frameborder="0" allowfullscreen></iframe>
 {% endif %}
@@ -38,19 +38,7 @@ layout: default
   data-size="large">
 Tweet</a>
 
-<a href="https://www.pinterest.com/pin/create/button/">
-    <img src="{{ page.image | prepend: site.baseurl | prepend: site.url }}" alt="" />
-</a>
 
-
-<a data-pin-do="buttonPin" data-pin-custom="true">
-<img src="{{ page.image | prepend: site.baseurl | prepend: site.url }}" alt="" />
-</a>
-
-
-<a data-pin-do="buttonPin" data-pin-custom="true">
-<img src="{{ page.image | prepend: site.baseurl | prepend: site.url }}" alt="" />
-</a>
 
 
 
