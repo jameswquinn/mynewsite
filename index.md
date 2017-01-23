@@ -8,7 +8,7 @@ layout: default
 title: "first image james"
 description: is this seen by pinterest...
 author:
-image: "/assets/uploads/default.jpg"
+image: "/assets/uploads/poster.jpg"
 
 # Background video and captions...
 covervid: "/videos/Dreamscapes-SD.mp4"
