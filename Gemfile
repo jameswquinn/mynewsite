@@ -17,6 +17,7 @@ gem "jekyll-seo-tag"
 gem "jekyll-sitemap"
 gem "jekyll-paginate"
 gem "jekyll-archives"
+gem 'jekyll-titles-from-headings'
 
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and

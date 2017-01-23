@@ -54,6 +54,7 @@ gems:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-archives
+  - jekyll-titles-from-headings
   
 exclude:
   - Gemfile

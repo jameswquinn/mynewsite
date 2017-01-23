@@ -4,6 +4,12 @@
 # See: https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 layout: page
 
+# SEO tags 
+title: "first image james"
+description: is this seen by pinterest...
+author:
+image: "/assets/uploads/poster.jpg"
+
 # Background video and captions...
 covervid: "/videos/Dreamscapes-SD.mp4"
 hero-heading: "covervid"
@@ -11,12 +17,6 @@ hero-subheading: "Background Video Cover"
 poster: "/assets/uploads/default.jpg"
 masthead-video-credit-title: "Dreamscapes"
 masthead-video-credit-name: "Jonathan Besler"
-
-# SEO tags 
-title: "first image james"
-description: is this seen by pinterest...
-author:
-image: "/assets/uploads/poster.jpg"
 
 #
 youtube: "MQJ6oIy8cAE"

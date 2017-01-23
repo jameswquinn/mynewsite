@@ -3,7 +3,7 @@
 
 # TEAM
 
-  <name> -- <role> -- <twitter>
+  <J Quinn> -- <role> -- <twitter>
 
 # THANKS
 
