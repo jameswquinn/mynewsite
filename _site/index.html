@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta http-equiv="cleartype" content="on">
 <!-- Begin Jekyll SEO tag v2.1.0 -->
 <title>first image james - Your awesome title</title>
 <meta property="og:title" content="first image james" />
-<meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
-<meta property="og:description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description." />
+<meta name="description" content="is this seen by pinterest…" />
+<meta property="og:description" content="is this seen by pinterest…" />
 <link rel="canonical" href="http://localhost:4000/mynewsite/" />
 <meta property="og:url" content="http://localhost:4000/mynewsite/" />
 <meta property="og:site_name" content="Your awesome title" />
@@ -19,11 +25,12 @@
 "name": "Ben Balter",
 "headline": "first image james",
 "image": "http://localhost:4000/mynewsite/assets/uploads/poster.jpg",
-"description": "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.",
+"description": "is this seen by pinterest…",
 "sameAs": ["https://twitter.com/BenBalter","https://www.facebook.com/ben.balter","https://www.linkedin.com/in/BenBalter","https://plus.google.com/+BenBalter","https://github.com/benbalter","https://keybase.io/benbalter"],
 "url": "http://localhost:4000/mynewsite/"}</script>
 <!-- End Jekyll SEO tag -->
 
+<!-- Load Favicons -->
 <link rel="apple-touch-icon" sizes="180x180" href="/mynewsite/apple-touch-icon.png">
 <link rel="icon" type="image/png" href="/mynewsite/favicon-32x32.png" sizes="32x32">
 <link rel="icon" type="image/png" href="/mynewsite/favicon-16x16.png" sizes="16x16">
@@ -31,16 +38,38 @@
 <link rel="mask-icon" href="/mynewsite/safari-pinned-tab.svg" color="#5bbad5">
 <meta name="theme-color" content="#ffffff">
 <!-- Google Fonts -->
-<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
-
+<link rel="stylesheet" href="/mynewsite/styles/fonts.css">
+<!-- Load Stylesheets -->
 <link rel="stylesheet" href="/mynewsite/styles/normalize.css" />
 <link rel="stylesheet" href="/mynewsite/styles/masthead.css" />
 <link rel="stylesheet" href="/mynewsite/styles/milligram.css" />
-
-
-
 </head>
 <body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.8";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<script>window.twttr = (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0],
+    t = window.twttr || {};
+  if (d.getElementById(id)) return t;
+  js = d.createElement(s);
+  js.id = id;
+  js.src = "https://platform.twitter.com/widgets.js";
+  fjs.parentNode.insertBefore(js, fjs);
+
+  t._e = [];
+  t.ready = function(f) {
+    t._e.push(f);
+  };
+
+  return t;
+}(document, "script", "twitter-wjs"));</script>
+<script async defer src="//assets.pinterest.com/js/pinit.js"></script>
 
 
 
@@ -61,7 +90,7 @@
 </figure>
 
 
-<img class="lazyload" data-src="/mynewsite/assets/uploads/poster.jpg">
+<img class="lazyload" data-src="/mynewsite/assets/uploads/poster.jpg" alt="">
 
 
 <iframe class="lazyload"  data-src="https://www.youtube.com/embed/MQJ6oIy8cAE?showinfo=0&rel=0&controls=1" frameborder="0" allowfullscreen></iframe>
@@ -72,6 +101,13 @@
 
 
 
+<div class="fb-share-button" data-href="https://jameswquinn.github.io/mynewsite/" data-layout="button" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjameswquinn.github.io%2Fmynewsite%2F&amp;src=sdkpreparse">Share</a></div>
+
+
+<a class="twitter-share-button"
+  href="https://twitter.com/intent/tweet?text=Hello%20world"
+  data-size="large">
+Tweet</a>
 
 
 <!--

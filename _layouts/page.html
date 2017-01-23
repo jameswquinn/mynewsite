@@ -18,11 +18,9 @@ layout: default
     </figcaption>
 </figure>
 {% endif %}
-<!--
 {% if page.image %}
-<img class="lazyload" data-src="{{ page.image | prepend: site.baseurl }}" alt="" />
-{endif}
--->
+<img class="lazyload" data-src="{{ page.image | prepend: site.baseurl }}" alt="">
+{% endif %}
 {% if page.youtube %}
 <iframe class="lazyload"  data-src="https://www.youtube.com/embed/{{ page.youtube }}?showinfo=0&rel=0&controls=1" frameborder="0" allowfullscreen></iframe>
 {% endif %}
@@ -31,7 +29,7 @@ layout: default
 {% endif %}
 
 
-<!--
+
 <div class="fb-share-button" data-href="https://jameswquinn.github.io/mynewsite/" data-layout="button" data-mobile-iframe="false"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fjameswquinn.github.io%2Fmynewsite%2F&amp;src=sdkpreparse">Share</a></div>
 
 
@@ -39,4 +37,3 @@ layout: default
   href="https://twitter.com/intent/tweet?text=Hello%20world"
   data-size="large">
 Tweet</a>
--->
